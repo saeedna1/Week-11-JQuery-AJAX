@@ -1,0 +1,25 @@
+.cell{
+    width: 150px;
+    height: 150px;
+    background-color: #253F30;
+    border: 1px solid;
+    box-shadow: 0 0 0 ;
+    line-height: 150px;
+    font-size: 120px;
+    cursor: pointer
+}
+
+#gameContainer {
+    font-family: 'Parmanent Marker', Chalkduster;
+    text-align: center;
+     
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    color: #FFC107
+}
